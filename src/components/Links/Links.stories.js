@@ -6,9 +6,9 @@ import * as style from '../../index.scss';
 export const LinksStory = () => (
   <Links items={
     [
-      {text: 'Send Flowers', link: 'www.google.co.uk'},
-      {text: 'Funeral Procession', link: 'www.google.co.uk'},
-      {text: 'Another Link', link: 'www.google.co.uk'},
+      {text: 'Send Flowers', link: 'https://www.google.co.uk'},
+      {text: 'Funeral Procession', link: 'https://www.google.co.uk'},
+      {text: 'Another Link', link: 'https://www.google.co.uk'},
     ]
   } />
 );

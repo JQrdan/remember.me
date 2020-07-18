@@ -12,7 +12,7 @@ const Links = ({items}) => {
       first = false;
     };
 
-    jsx.push(<a href={item.link}>{item.text}</a>);
+    jsx.push(<a href={item.link} target={'_blank'}>{item.text}</a>);
   });
 
   return <div className={'links'}>{jsx}</div>;
