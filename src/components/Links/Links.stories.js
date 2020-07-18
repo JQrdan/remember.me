@@ -1,7 +1,7 @@
 import React from 'react';
 import Links from './Links.js';
 import centered from '@storybook/addon-centered/react';
-import * as style from '../../index.scss';
+import * as style from '../../scss/index.scss';
 
 export const LinksStory = () => (
   <Links items={

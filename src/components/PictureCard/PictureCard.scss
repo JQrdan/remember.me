@@ -1,0 +1,29 @@
+.pictureCard {
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .age {
+      width: 100%;
+      backdrop-filter: blur(4px);
+      padding: 1rem;
+      color: $textSecondary;
+      box-sizing: border-box;
+      background-color: rgba(0,0,0,.2)
+    }
+  
+    .comment {
+      background-color: $textGrayDark;
+      color: $textSecondary;
+      padding: 1rem;
+      box-sizing: border-box;
+  
+      .commentAuthor {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
