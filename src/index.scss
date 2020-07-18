@@ -2,6 +2,7 @@
 
 $background: white;
 $textPrimary: black;
+$textLink: #127bfe;
 $textGrayLight: #c1c2c1;
 $textGrayDark: #595a59;
 
@@ -13,3 +14,4 @@ $textGrayDark: #595a59;
 
 @import './components/Header/Header.scss';
 @import './components/NamePlate/NamePlate.scss';
+@import './components/Links/Links.scss';

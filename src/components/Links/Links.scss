@@ -1,0 +1,13 @@
+.links {
+  color: $textLink;
+  font-weight: 500;
+
+  a {
+    color: $textLink;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
