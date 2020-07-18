@@ -7,7 +7,7 @@ const Links = ({items}) => {
 
   items.forEach(item => {
     if (!first) {
-      jsx.push(' | ')
+      jsx.push(<p className={'spacer'}> | </p>)
     } else {
       first = false;
     };

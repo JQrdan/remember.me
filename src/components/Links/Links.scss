@@ -1,6 +1,9 @@
 .links {
   color: $textLink;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
 
   a {
     color: $textLink;
@@ -9,5 +12,9 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+
+  .spacer {
+    margin: 0 .25rem;
   }
 }
