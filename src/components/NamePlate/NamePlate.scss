@@ -1,0 +1,18 @@
+.namePlate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .name {
+    color: $textPrimary;
+    font-weight: 300;
+    font-size: 3rem;
+  }
+
+  .life {
+    color: $textGrayLight;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+}

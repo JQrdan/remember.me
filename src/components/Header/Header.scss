@@ -1,0 +1,19 @@
+.header {
+  width: 100vw;
+  height: 3.5rem;
+  background-color: $background;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  font-weight: 500;
+
+  .breadCrumbStart {
+    color: $textGrayLight;
+  }
+
+  .breadCrumbContinue {
+    color: $textGrayDark;
+  }
+}
