@@ -12,7 +12,7 @@
     "react": "^16.13.1",
     "react-animate-height": "^2.0.22",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,7 +43,7 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^5.3.19",
+    "@storybook/react": "^7.0.6",
     "@storybook/storybook-deployer": "^2.8.6"
   }
 }
